@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+*.csv
+*.xlsx
+# We ignore the raw data files if they are too large, but keeping them locally is fine.
+# If your pbix file is > 100mb, you might need Git LFS, but for this synthetic data it will be small enough!
+credentials/
+secrets/
